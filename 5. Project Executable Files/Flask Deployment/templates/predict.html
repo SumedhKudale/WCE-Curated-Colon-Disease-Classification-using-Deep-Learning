@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <div class="predict">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/predict">Predict</a></li>
+                </ul>
+            </nav>
+            <form class="p-3 text-center" action='/output', method="post" enctype="multipart/form-data">
+                <input class="form-control" type="file" name="imagefile" >
+                <input class="btn btn-primary mt-3" type="submit" value="Predict Image">
+            </form>
+        </div>
+    </div>
+    </div>
+    
+
+</body>
+</html>

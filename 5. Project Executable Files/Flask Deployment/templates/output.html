@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <div class="output">
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/predict">Predict</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <h1 class="h1heading" id="h1heading">Prediction is: {{ text }}</h1> 
+        </div>
+    </div>
+    
+    
+</body>
+</html>
