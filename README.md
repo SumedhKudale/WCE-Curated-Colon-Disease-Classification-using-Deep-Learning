@@ -18,8 +18,8 @@ Deep Learning, Artificial Intelligence, Tensorflow, Keras, Python, Flask.
 https://www.youtube.com/watch?v=nmC6rgbvPOg
 
 ## Contributors in the project:
-1. Satakshi (https://github.com/Satakshi2703)
+1. Sumedh Deepak Kudale (https://github.com/SumedhKudale)
 2. Manjara Raj (https://github.com/Mnj-ToTheTop)
 3. Shreesh Hunnur (https://github.com/ShreeshHunnur)
-4. Sumedh Deepak Kudale (https://github.com/SumedhKudale)
+4. Satakshi (https://github.com/Satakshi2703)
 
